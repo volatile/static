@@ -19,7 +19,7 @@ Example:
 		core.Run()
 	}
 
-Cache "max-age"
+Cache max-age
 
 The "static.Use" method receives a single parameter: the "max-age" (in seconds) for all the static files.
 */
