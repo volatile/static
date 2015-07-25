@@ -30,4 +30,5 @@ func main() {
 
 ### Cache "max-age"
 
-The `static.Use` method receives a single parameter: the `max-age` (in seconds) for all the static files.
+The `static.Use` method receives a single parameter: the `max-age` (in seconds) for all resources.  
+This setting is only used in production environment.
