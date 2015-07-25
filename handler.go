@@ -24,7 +24,7 @@ var (
 func Use(maxAge time.Duration) {
 	maxAgeString := fmt.Sprintf("%.f", maxAge.Seconds())
 	core.Use(func(c *core.Context) {
-		if strings.HasPrefix(c.Request.URL.Path, "/") {
+		if strings.HasPrefix(c.Request.URL.Path, "/"+assetsDir) {
 			if core.Production {
 				c.ResponseWriter.Header().Set("Cache-Control", "public, max-age="+maxAgeString)
 			}
