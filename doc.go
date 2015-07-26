@@ -22,6 +22,6 @@ Example:
 Cache max-age
 
 The "static.Use" method receives a single parameter: the "max-age" (in seconds) for all resources.
-This setting is only used in production environment.
+This setting is only used in a production environment.
 */
 package static
