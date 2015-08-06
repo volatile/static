@@ -1,5 +1,5 @@
 /*
-Package static is a handler for the Core.
+Package static is a handler for the Core (https://github.com/volatile/core).
 It serves files from the "static" directory on the "/static" URL path.
 
 Usage

@@ -6,10 +6,10 @@ It serves files from the `static` directory on the `/static` URL path.
 ## Installation
 
 ```Shell
-$ go get -u github.com/volatile/static
+$ go get github.com/volatile/static
 ```
 
-## Usage
+## Usage [![GoDoc](https://godoc.org/github.com/volatile/static?status.svg)](https://godoc.org/github.com/volatile/static)
 
 ```Go
 package main
@@ -26,9 +26,7 @@ func main() {
 }
 ```
 
-[![GoDoc](https://godoc.org/github.com/volatile/static?status.svg)](https://godoc.org/github.com/volatile/static)
-
 ### Cache "max-age"
 
-The `static.Use` method receives a single parameter: the `max-age` (in seconds) for all resources.  
+The [`Use`](https://godoc.org/github.com/volatile/i18n#Use) method receives a single parameter: the `max-age` (in seconds) for all resources.  
 This setting is only used in a production environment.
