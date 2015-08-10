@@ -2,6 +2,12 @@
 Package static is a handler for the Core (https://github.com/volatile/core).
 It serves files from the "static" directory on the "/static" URL path.
 
+Installation
+
+In the terminal:
+
+	$ go get github.com/volatile/static
+
 Usage
 
 Example:
