@@ -28,5 +28,5 @@ func main() {
 
 ### Cache "max-age"
 
-The [`Use`](https://godoc.org/github.com/volatile/i18n#Use) method receives a single parameter: the `max-age` (in seconds) for all resources.  
+The [`Use`](https://godoc.org/github.com/volatile/static#Use) method receives a single parameter: the `max-age` (in seconds) for all resources.  
 This setting is only used in a production environment.
