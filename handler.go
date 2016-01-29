@@ -20,7 +20,8 @@ var (
 	fs = http.FileServer(http.Dir(assetsDir))
 )
 
-// Use tells the core to use this handler.
+// Use adds the handler to the default handlers stack.
+// Argument maxAge is expressed in seconds and applies to all content (in a production environment only).
 func Use(maxAge time.Duration) {
 	maxAgeString := fmt.Sprintf("%.f", maxAge.Seconds())
 	core.Use(func(c *core.Context) {
